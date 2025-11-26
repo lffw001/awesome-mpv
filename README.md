@@ -794,3 +794,11 @@ into popular sections, like Subtitles etc.
 - [vidify](https://vidify.org) - Cross-platform app that detects playing songs on your device and plays their music videos anywhere, based on Python.
 - [Karaoke Mugen](https://karaokes.moe/de/) - Cross-platform karaoke management app, based on JavaScript/node.js/Web.
 - [gnome-shell-extension-caffeine](https://github.com/eonpatapon/gnome-shell-extension-caffeine) - Prevent the display from turning off (Gnome doesn't support the idle-inhibit protocol on Wayland) and disable the 'night light' when a mpv window is in focus.
+
+
+Other projects from me
+----------------------
+
+A list of my other projects can be found here:
+
+https://stax76.github.io/software-list
