@@ -66,6 +66,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [mpv-hero](https://github.com/stax76/mpv-hero) - mpv extended with GUI scripts and GUI tools.
 - [mpc-qt](https://github.com/mpc-qt/mpc-qt) - Based on C++/QT.
 - [MPV-EASY Player](https://github.com/422658476/MPV-EASY-Player)
+- [MMP: Minimalist Media Player](https://github.com/BazzaCuda/MinimalistMediaPlayerX) - Player/Manager/Editor for audio and video, and Viewer/Manager for images/thumbnails; maintained, based on 64-bit Delphi Pascal
 
 ## MacOS
 
@@ -804,3 +805,4 @@ Other projects from me
 A list of my other projects can be found here:
 
 https://stax76.github.io/software-list
+
