@@ -193,7 +193,7 @@ into popular sections, like Subtitles etc.
 - [misc](https://github.com/stax76/mpv-scripts) - Cycle audio and subtitle tracks, include only languages you know.
 - [misc](https://github.com/stax76/mpv-scripts) - Show detailed media info on screen.
 - [censor](https://github.com/zenyd/mpv-scripts) - Skip over parts of videos you don't want (others) to view
-- [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) - Automatically load playlist entries before and after the currently playing file, by scanning the directory.
+- [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) - Automatically load playlist entries before and after the currently playing file, by scanning the directory. **Obsolete:** mpv now has a native `--autocreate-playlist` option.
 - [total_playtime](https://github.com/oltodosel/mpv-scripts/blob/master/total_playtime.lua) - Shows total playtime of current playlist.
 - [track-list](https://github.com/dyphire/mpv-scripts/blob/main/track-list.lua) - Interractive track-list menu.
 - [trakt](https://github.com/LiTO773/trakt-mpv) - Connects trakt.tv with mpv and automatically scrobbles movies/shows.
@@ -249,6 +249,8 @@ into popular sections, like Subtitles etc.
 - [generate-edl](https://gist.github.com/guidocella/5f05794d0a8400b2393fe7a9995ebb43) - Bookmark scenes in EDL files.
 - [autoload-archive-hook](https://gist.github.com/po5/2415cb39c94760ac8c2c7666a30bf02c) - When playing a direct file from within an archive with e.g. `archive://test.rar|/09.png`, mpv doesn't fill the playlist. This script does so transparently. It also supports nested and remote archives.
 - [LoopToFile](https://github.com/NovaFormaLab/LoopToFile) - Functional script that allows you to generate playback loops and extract media fragments into new files. L∞p → file.ext.
+- [abstime-osd](https://github.com/whether1/mpv-abstime-osd) - Show absolute time of the playing audio or video.(OSD).
+- [mpv-PiP](https://github.com/WatanabeChika/mpv-PiP) - Allow users to switch to borderless and top-level picture-in-picture mode with shortcut keys.
 
 ## File
 
@@ -279,7 +281,7 @@ into popular sections, like Subtitles etc.
 - [ModernX zydezu](https://github.com/zydezu/ModernX) - A fork of ModernX with many additional features and customization.
 - [modern-x-compact](https://github.com/1-minute-to-midnight/mpv-modern-x-compact) - Compact version of modern-x.
 - [ModernZ](https://github.com/Samillion/ModernZ) - A fork of ModernX designed to enhance functionality by adding more features, all while preserving the core standards of mpv's OSC.
-
+- [uosc_history_menu](https://github.com/Koopex/uosc_history_menu) - A history and bookmark management menu integrated with uosc.
 
 
 - [tethys](https://github.com/Zren/mpv-osc-tethys) - OSC replacement with seekbar thumbnail preview.
@@ -373,6 +375,7 @@ into popular sections, like Subtitles etc.
 - [subber](https://framagit.org/Midgard/mpv-subber) - Write subtitles in mpv.
 - [sub-fastwhisper](https://github.com/dyphire/mpv-sub-fastwhisper) - Generate SRT subtitles through voice transcription using faster-whisper.
 - [llm-subtrans](https://github.com/sorz/mpv-llm-subtrans/) - Extract & translate subtitles with OpenAI API. Streaming & contextual.
+- [subai](https://github.com/zenwarr/mpv-config?tab=readme-ov-file#subai) - Translate and explain the currently displayed subtitle line into your preferred language. Helps learning a foreign language.
 
 ## Learning
 
@@ -499,6 +502,7 @@ into popular sections, like Subtitles etc.
 - [hdr-mode](https://github.com/dyphire/mpv-scripts/blob/main/hdr-mode.lua) - Automatically switches the display's SDR and HDR modes for HDR passthrough based on the content of the video being played.
 - [mpv360](https://github.com/kasper93/mpv360) - Interactive 360° Video Viewer. With full camera control through mouse and keyboard inputs.
 - [display-plugin](https://github.com/dyphire/mpv-display-plugin) - More display properties for mpv, support toggle Windows HDR.
+- [Fast Catmull-Rom](https://github.com/garamond13/Fast-Catmull-Rom) - Fast Catmull-Rom approximation using 5 samples by omitting corners.
 
 ## Image
 
@@ -641,6 +645,7 @@ into popular sections, like Subtitles etc.
 - [equalizer](https://github.com/he2a/mpv-scripts) - Script for togglable parametric equalizer with EQ configuration similar to EqualizerAPO format present in a csv format. Script can be whitelisted based on whether the content is audio, video or a movie. Settings are located in equalizer.conf in ./script-opts folder and equalizer configuration in ./script-opts/equalizer folder.
 - [lines-meme-generator](https://github.com/WatanabeChika/mpv-lines-meme-generator) - Allow users to take screenshots in MPV, crop them to keep only the bottom portion, and stitch them together into a long vertical image, just like a meme of lines.
 - [notification-osd](https://github.com/layercak3/mpv-notification-osd) - XDG desktop notification OSD plugin for track changes or media key playback control while the window is unfocused. Supports cover art and video thumbnail of the current time position.
+- [single-instance](https://github.com/mpv-player/mpv/issues/43#issuecomment-2496083283) - Reuse the existing mpv window when opening new files rather than spawning a new window.
 
 # Music Player
 
@@ -717,7 +722,7 @@ into popular sections, like Subtitles etc.
 - [2D Image Resampling](https://github.com/garamond13/2D-Image-Resampling) - 2D Image Resampling is a general resampling algorithm made for experimental / testing use.
 - [hdr-toys](https://github.com/natural-harmonia-gropius/hdr-toys) - Componentized Rec.2100 to Rec.709 conversion shader.
 - [Jinc](https://github.com/garamond13/Jinc) - Jinc based image scaling. Similar to mpv's ewa or polar.
-- [NLS#](https://github.com/NotMithical/mpv-config/blob/main/Personal/portable_config/shaders/AspectRatio/NLS%23.glsl) - Tunable bidirectional nonlinear stretching with optional cropping and padding.
+- [NLS-Next](https://github.com/NotMithical/MPV-NLS-Next/blob/main/NLS-Next.glsl) - A nonlinear stretch shader and helper script for MPV, featuring bi-directional stretching and multiple tunable options.
 - [Pixel Clipper](https://github.com/Artoriuz/glsl-pixel-clipper) - Simple anti-ringing filter based on pixel clipping/clamping.
 - [JointBilateral & FastBilateral](https://github.com/Artoriuz/glsl-joint-bilateral) - Chroma upsamplers that use the luma plane as a guide to achieve sharper transitions without introducing any ringing.
 - [A-Pack](https://github.com/butterw/bShaders/tree/master/A-pack) - Shaders pack for quick Adjustment of (web) video: brightness/contrast curves (tooDark, tooBright, bShadows, bDim, etc.) and color (vibrance, skintones, Black&White). Runs on integrated graphics.
