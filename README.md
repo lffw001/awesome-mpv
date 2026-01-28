@@ -254,6 +254,7 @@ into popular sections, like Subtitles etc.
 
 ## File
 
+- [mpv-file-organizer](https://github.com/borasavkar/mpv-file-organizer) - Automatically organizes media files into folders based on metadata tags.
 - [file-browser](https://github.com/CogentRedTester/mpv-file-browser) - On screen file browser. 
 - [filenavigator](https://github.com/jonniek/mpv-filenavigator) - Navigate and open local files.
 - [delete-current-file](https://github.com/stax76/mpv-scripts) - Moves the current file instantly to the recycle bin.
@@ -810,5 +811,6 @@ Other projects from me
 A list of my other projects can be found here:
 
 https://stax76.github.io/software-list
+
 
 
