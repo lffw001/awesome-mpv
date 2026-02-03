@@ -194,6 +194,7 @@ into popular sections, like Subtitles etc.
 - [misc](https://github.com/stax76/mpv-scripts) - Show detailed media info on screen.
 - [censor](https://github.com/zenyd/mpv-scripts) - Skip over parts of videos you don't want (others) to view
 - [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) - Automatically load playlist entries before and after the currently playing file, by scanning the directory. **Obsolete:** mpv now has a native `--autocreate-playlist` option.
+- [heuristic-autoload](https://github.com/notuxic/mpv-heuristic-autoload) - Automatically load files with similar names as the playing file into the playlist.
 - [total_playtime](https://github.com/oltodosel/mpv-scripts/blob/master/total_playtime.lua) - Shows total playtime of current playlist.
 - [track-list](https://github.com/dyphire/mpv-scripts/blob/main/track-list.lua) - Interractive track-list menu.
 - [trakt](https://github.com/LiTO773/trakt-mpv) - Connects trakt.tv with mpv and automatically scrobbles movies/shows.
@@ -811,6 +812,7 @@ Other projects from me
 A list of my other projects can be found here:
 
 https://stax76.github.io/software-list
+
 
 
 
